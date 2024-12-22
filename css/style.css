@@ -1,0 +1,295 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Hobbies Page Styles */
+#hobbies-list {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#hobbies-list h2 {
+    font-size: 2rem;
+    color: #9C8579;
+    margin-bottom: 20px;
+}
+
+#hobbies-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#hobbies-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Back Button Styles */
+.back-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #9C8579;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #8F7664;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8c7764;
+}
+
+.navbar .logo span {
+    font-style: italic;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #9c8579;
+}
+
+/* Header Section */
+.header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+    background-color: #f9f9f9;
+    }
+
+    .intro {
+    max-width: 50%;
+    }
+
+    .intro h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 10px;
+    }
+
+    .intro p {
+    margin-bottom: 20px;
+    }
+
+    .intro button {
+    padding: 10px 20px;
+    background-color: #9c8579; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+    .intro-image img {
+    max-width: 300px;
+    border-radius: 10px;
+    }
+
+/* Approach Section */
+.approach {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.approach h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.approach-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.approach-content div {
+    max-width: 45%;
+}
+
+/* Experience Section */
+.experience {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #cdc6c3;
+    color: #3a2d28;
+}
+
+.experience div {
+    text-align: center;
+}
+
+.experience h3 {
+    font-size: 1.5rem;
+}
+
+/* Work Section */
+.faq {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.work-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.work-gallery img {
+    width: 20%;
+    height: auto;
+}
+
+/* Get in Touch Section */
+.subscribe {
+    padding: 40px;
+    background-color: #4e4e4e;
+    color: #fff;
+    text-align: center;
+}
+
+.subscribe h2 {
+    margin-bottom: 20px;
+}
+
+.subscribe form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.subscribe form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button Style for Form */
+
+.fcf-body {
+    margin: 0;
+    font-family: -apple-system, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    padding-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.50rem;
+    max-width: 100%;
+}
+
+.fcf-btn-primary {
+    color: #fff;
+    background-color: #9C8579;
+    border-color: #9C8579;
+}
+
+.fcf-btn-primary:hover {
+    color: #fff;
+    background-color: #8F7664;
+    border-color: #8F7664;
+}
+
+.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+    color: #fff;
+    background-color: #9C8579;
+    border-color: #8F7664;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.fcf-form-control {
+    width: 90%; 
+    max-width: 600px; 
+    padding: 10px; 
+    font-size: 1rem; 
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .approach-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .approach-content div {
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+}
